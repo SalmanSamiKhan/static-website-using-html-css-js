@@ -1,0 +1,23 @@
+/* About */
+
+#about .heading {
+    text-align: center;
+    padding: 30px;
+    font-size: 35px;
+    font-weight: bold;
+    background-color: #131212;
+    color: white;
+  }
+  
+  #about .container{
+    background-color: rgb(21, 151, 130);
+    background-image: url('../static/img/about.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1550px 400px;
+    padding: 100px;
+    font-size: 25px;
+    text-align: center;
+    
+  }
+  

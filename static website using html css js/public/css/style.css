@@ -1,0 +1,122 @@
+* {
+  font-family: Georgia;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 99.5px;
+}
+
+body::before {
+  content: "";
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  position: absolute;
+  background: url("/static/bg.jpg") center center no-repeat cover;
+}
+
+#navbar {
+  background-color: black;
+  color: white;
+  display: flex;
+  position: sticky;
+  height: 100px;
+  justify-items: center ;
+  top: 0;
+  padding: 25px 10px;
+  font-size: 25px;
+  opacity: .8;
+  /* margin: auto; */
+}
+#navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 3px 4px;
+  list-style: none;
+}
+
+#navbar li a {
+  text-decoration: none;
+  color: white;
+  padding: 3px 4px;
+}
+#navbar li a:hover {
+  color: rgb(43, 48, 48);
+  /* background-color: white; */
+}
+
+/* .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 50px 480px;
+  padding: 80px;
+  background-color: rgb(51, 61, 61);
+  border: 3px solid black;
+  border-radius: 15px;
+  color: white;
+} */
+
+/* .ulist {
+  font-size: larger;
+  list-style: none;
+} */
+
+#logo {
+  display: flex;
+  color: white;
+  align-items: center;
+  margin: 0 10px;
+  font-size: 28px;
+  margin-right: 15px;
+  
+}
+
+/* #logo img{
+  height: 100px;
+  filter: invert(1);
+} */
+
+img {
+  height: 50px;
+  /* border: 3px solid white; */
+  
+  /* filter: invert(1); */
+}
+
+/* Footer */
+#footer {
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  /* font-size: small; */
+  padding: 10px;
+}
+
+#footerText {
+  font-size: medium;
+}
+
+.heading {
+  text-align: center;
+  padding: 25px;
+  font-size: 35px;
+  font-weight: bold;
+  background-color: #202221;
+  color: white;
+  
+}
+

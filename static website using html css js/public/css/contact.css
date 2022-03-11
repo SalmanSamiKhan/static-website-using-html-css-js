@@ -1,0 +1,68 @@
+/* Contact */
+
+#contact .heading {
+    text-align: center;
+    padding: 30px;
+    padding-top: 40px;
+    font-size: 35px;
+    font-weight: bold;
+    background-color: #131212;
+    color: white;
+    
+  }
+  
+  #contact {
+    background-color: rgb(21, 151, 130);
+    padding-bottom: 1px;
+    background-image: url('../static/img/contact.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    background-size: 1550px 620px;
+    /* padding-top: 0.5px; */
+  }
+  
+  h1 {
+    /* text-align: center; */
+  }
+  
+  .myForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 420px;
+    padding: 20px;
+    background-color: rgb(51, 61, 61);
+    border: 3px solid;
+    border-radius: 15px;
+    opacity: .9;
+  }
+  
+  .myInput {
+    text-align: center;
+    width: 75%;
+    padding: 15px;
+    margin: 15px 10px;
+    border: 3px solid;
+    border-radius: 10px;
+    font-size: large;
+  }
+  
+  .btn {
+    margin: 0px 5px;
+    background-color: rgb(24, 39, 39);
+    color: white;
+    padding: 5px 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: "Baloo Bhai 2", cursive;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    background-color: rgb(50, 71, 110);
+  }
+  
